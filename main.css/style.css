@@ -34,6 +34,14 @@ header{
         display: block;
     }
 
+    .abrir-menu{
+        color: #1c1c1c;
+    }
+
+    .cerrar-menu{
+        color: #ececec;
+    }
+
     .nav{
         opacity: 0;
         visibility: hidden;
@@ -53,7 +61,7 @@ header{
 
     .nav.visible{
         opacity: 1;
-        visibility: hidden;
+        visibility: visible;
     }
 
     .nav-list{
